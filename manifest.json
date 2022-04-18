@@ -1,0 +1,22 @@
+{
+  "name": "Greek for Esperanto",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Esperanto keyboard - klavaro por Esperanto kun la Greka alfabeto",
+  "background": {
+    "scripts": ["background2.js"]
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Greek for Esperanto",
+      "type": "ime",
+      "id": "esperanto_klavaro",
+      "description": "Esperanto keyboard - klavaro por Esperanto kun la Greka alfabeto",  // user visible description
+      "language": "eo",  // The primary language this IME is used for
+      "layouts": ["epo"]
+    }
+  ]
+}
